@@ -134,7 +134,7 @@ const Brand = () => {
                     <div className="w-[200px] h-[160px] border-border border hover:border-texthead mx-14">
                       <Link
                         className="flex justify-center object-cover w-full h-full"
-                        to={`/shop/brand/${item?._id}`}
+                        to={`/shop/brand/${item?._id}/${item?.title}`}
                       >
                         <img
                           className="object-cover w-full h-full"

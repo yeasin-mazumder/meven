@@ -793,7 +793,7 @@ const MobileNavbar = () => {
                       {data?.title}
                     </h4>
                     <ul className="mt-3">
-                      {data?.subCategory?.map((item, index) => {
+                      {data?.subCategories?.map((item, index) => {
                         return (
                           <li
                             className="hover:bg-bestdealbg hover:bg-opacity-60 transition-all ease-linear duration-200"
@@ -806,7 +806,11 @@ const MobileNavbar = () => {
                                 setCategoryActive(false);
                               }}
                               className="py-3.5 px-9 inline-block "
-                              to={`/shop/category/${item?._id}`}
+                              to={`/shop/subcategory/${
+                                item?._id
+                              }/${encodeURIComponent(
+                                item?.title.replace(/\s+/g, "")
+                              )}`}
                             >
                               {item?.title}
                             </Link>

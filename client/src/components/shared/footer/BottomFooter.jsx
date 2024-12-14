@@ -35,7 +35,7 @@ const BottomFooter = () => {
       <Containar>
         <div className="flex justify-between items-center">
           <p className="text-sm text-gray-400">
-            ©2024 Nexlinbd, All rights reserved. Developed by
+            ©2024 Meven, All rights reserved. Developed by
             <span className="text-white mx-2">
               <Link target="_blanck" to={"https://www.okobiz.com/"}>
                 okobiz.

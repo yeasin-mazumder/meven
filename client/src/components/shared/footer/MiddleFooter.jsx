@@ -267,7 +267,7 @@ const MiddleFooter = () => {
             <ul className="flex justify-between flex-wrap  py-8">
               <li>
                 <Link to={"/"} className=" text-lg font-medium text-danger">
-                  NEXLIN
+                  Meven
                 </Link>
                 <div className="flex flex-wrap gap-x-5 gap-y-3 sm:gap-x-10 mt-5">
                   {infolist.map((item, index) => (

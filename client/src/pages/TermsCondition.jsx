@@ -10,143 +10,175 @@ const TermsCondition = () => {
     <>
       <BradCumbs title="Terms & Condition" />
       <div className="font-inter mb-20">
-        <Containar>
-          <div className="max-w-5xl mx-auto p-6">
-            <p className="mb-4">
-              Welcome to nexlinbd ! Before you start shopping, please take a
-              moment to read our Terms & Conditions. These terms are here to
-              ensure a smooth and enjoyable experience for everyone. By using
-              our website and making a purchase, you agree to the following
-              terms:
-            </p>
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gray-200">
+          <Containar>
+            <div className="max-w-5xl mx-auto p-6 text-sm leading-relaxed bg-white">
+              <h1 className="text-xl font-bold text-center mb-6">
+                Terms and Conditions
+              </h1>
 
-            <h2 className="text-xl font-semibold mb-2">
-              1. Acceptance of Terms
-            </h2>
-            <p className="mb-4">
-              By accessing or using the nexlinbd website, you agree to comply
-              with and be bound by these Terms & Conditions. If you do not agree
-              with any part of these terms, please do not use our site.
-            </p>
+              <p>
+                Welcome to MEVEN! By using our website, you agree to the
+                following terms and conditions. Please read them carefully
+                before making any purchases or using our services.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">
-              2. Products and Services
-            </h2>
-            <p className="mb-4">
-              We strive to provide accurate descriptions and images of our
-              products. However, we cannot guarantee that every product
-              description or image is completely accurate. We may update or
-              change product information at any time without notice.
-            </p>
+              <h2 className="font-bold mt-4">1. Introduction</h2>
+              <p>
+                1.1 These terms and conditions outline the rules and regulations
+                for using MEVEN's website, located at mymeven.com. By accessing
+                this website, we assume you fully accept these terms and
+                conditions. Only continue to use MEVEN's website if you accept
+                all of the terms and conditions stated on this page.
+              </p>
+              <p>
+                1.2 The term ‘MEVEN’ or ‘us’ or ‘we’ refers to the owner of the
+                website. The term ‘you’ refers to the user or viewer of our
+                website.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">
-              3. Orders and Payments
-            </h2>
-            <p className="mb-4">
-              When you place an order, you are making an offer to buy the
-              products listed in your cart. We reserve the right to accept or
-              reject your order for any reason. If we accept your order, we will
-              confirm it by sending you an email. Payment must be made in full
-              before we process and ship your order. We accept various forms of
-              payment, including credit cards and other payment methods listed
-              on our website.
-            </p>
+              <h2 className="font-bold mt-4">2. Use of the Website</h2>
+              <p>
+                2.1 By accessing and using the MEVEN website, you warrant that
+                you are legally capable of entering into binding contracts and
+                that you are at least the age of majority in your state or
+                province of residence.
+              </p>
+              <p>
+                2.2 You agree to use this website only for lawful purposes. You
+                must not use this website in any way that causes or may cause
+                damage to the website or impairment of the availability or
+                accessibility of the website, or in any way which is unlawful,
+                illegal, fraudulent, or harmful.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">
-              4. Shipping and Delivery
-            </h2>
-            <p className="mb-4">
-              We aim to process and ship your order as quickly as possible.
-              Shipping times and costs vary depending on your location and the
-              shipping method you choose. For more information, please refer to
-              our Shipping Rates & Policies page. Once your order is shipped,
-              you will receive a tracking number to monitor its progress.
-            </p>
+              <h2 className="font-bold mt-4">
+                3. Account Registration and Usage
+              </h2>
+              <p>
+                3.1 Account Registration: Creating an account on MEVEN is
+                optional. You are not required to register or create an account
+                to place an order or access our services. You can browse and
+                purchase products as a guest without any restrictions.
+              </p>
+              <p>
+                3.2 Guest Checkout: Customers have the option to proceed as a
+                guest and make purchases without creating an account. All
+                necessary information, such as shipping and payment details,
+                must be provided at checkout.
+              </p>
+              <p>
+                3.3 Account Benefits: Registered users may enjoy additional
+                benefits such as faster checkout, order history tracking, and
+                exclusive offers.
+              </p>
+              <p>
+                3.4 Account Security: You are responsible for maintaining the
+                confidentiality of your account and password. You agree to
+                accept responsibility for all activities that occur under your
+                account. MEVEN reserves the right to terminate accounts, remove
+                or edit content, or cancel orders at our discretion.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">
-              5. Returns and Refunds
-            </h2>
-            <p className="mb-4">
-              If you’re not satisfied with your purchase, you can return it for
-              a refund according to our Returns & Replacements policy. Items
-              must be returned in their original condition and packaging within
-              the specified return period. Please review our Returns &
-              Replacements page for detailed information on how to return items
-              and request refunds.
-            </p>
+              <h2 className="font-bold mt-4">
+                4. Product Information and Accuracy
+              </h2>
+              <p>
+                4.1 MEVEN offers a wide range of products, with a focus on
+                women's products, and endeavors to display accurate colors,
+                features, and details of products. However, we do not guarantee
+                perfect accuracy due to variations in your display.
+              </p>
+              <p>
+                4.2 All products are subject to availability, and prices are
+                subject to change.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">
-              6. Account Responsibility
-            </h2>
-            <p className="mb-4">
-              If you create an account with us, you are responsible for
-              maintaining the confidentiality of your account information and
-              for all activities that occur under your account. Notify us
-              immediately if you suspect any unauthorized use of your account.
-              We are not liable for any loss or damage arising from your failure
-              to protect your account information.
-            </p>
+              <h2 className="font-bold mt-4">5. Pricing and Payment</h2>
+              <p>
+                5.1 All prices are in BDT and include taxes unless otherwise
+                specified. Prices may change, but this will not affect accepted
+                orders.
+              </p>
+              <p>
+                5.2 Payment can be made through available methods, and in the
+                case of incorrect pricing, we reserve the right to cancel orders
+                and issue refunds.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">
-              7. Intellectual Property
-            </h2>
-            <p className="mb-4">
-              All content on the nexlinbd website, including text, graphics,
-              logos, and images, is owned by or licensed to us and is protected
-              by copyright and other intellectual property laws. You may not
-              use, reproduce, or distribute any content from our site without
-              our express written permission.
-            </p>
+              <h2 className="font-bold mt-4">
+                6. Order Acceptance and Cancellation
+              </h2>
+              <p>
+                6.1 Your order is an offer, and we reserve the right to accept
+                or cancel it based on product availability, errors, or suspected
+                fraud. In case of cancellation, we will notify you and issue a
+                refund.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">
-              8. Limitation of Liability
-            </h2>
-            <p className="mb-4">
-              nexlinbd is not liable for any indirect, incidental, or
-              consequential damages arising from your use of our website or
-              products. Our liability is limited to the maximum extent permitted
-              by law. We are not responsible for any damages resulting from
-              errors or omissions in our content or for any interruptions in our
-              service.
-            </p>
+              <h2 className="font-bold mt-4">
+                7. User Conduct and Obligations
+              </h2>
+              <p>
+                7.1 You must not misuse the website for illegal activities,
+                hacking, spamming, or spreading malware. Breaching this will
+                lead to criminal action.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">9. Changes to Terms</h2>
-            <p className="mb-4">
-              We may update these Terms & Conditions from time to time. When we
-              do, we will post the revised terms on our website and update the
-              effective date. Your continued use of our website after any
-              changes constitutes your acceptance of the new terms.
-            </p>
+              <h2 className="font-bold mt-4">
+                8. Intellectual Property Rights
+              </h2>
+              <p>
+                8.1 You are not allowed to republish, sell, rent, or
+                redistribute content from MEVEN without permission.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">10. Governing Law</h2>
-            <p className="mb-4">
-              These Terms & Conditions are governed by and construed in
-              accordance with the laws of Bangladesh. Any disputes arising from
-              these terms or your use of our website will be resolved in the
-              courts of Bangladesh.
-            </p>
+              <h2 className="font-bold mt-4">9. Third-Party Links</h2>
+              <p>
+                9.1 Our website may link to third-party websites, which we do
+                not control. MEVEN is not responsible for content or damages
+                from third-party links.
+              </p>
 
-            <h2 className="text-xl font-semibold mb-2">Contact Us</h2>
-            <p className="mb-4">
-              If you have any questions or concerns about these Terms &
-              Conditions, please contact us at{" "}
-              <a
-                href="mailto:nexlinbd@gmail.com"
-                aria-label="Send an email to nexlinbd@gmail.com"
-                className="text-blue-500"
-              >
-                nexlinbd@gmail.com
-              </a>
-              . We are here to help and ensure you have a great experience with
-              nexlinbd .
-            </p>
+              <h2 className="font-bold mt-4">10. Limitation of Liability</h2>
+              <p>
+                10.1 MEVEN is not liable for special or consequential damages
+                arising from using the site or products.
+              </p>
 
-            <p className="text-center font-semibold mt-6">
-              Thank you for shopping with us! We appreciate your business and
-              look forward to serving you.
-            </p>
-          </div>
-        </Containar>
+              <h2 className="font-bold mt-4">11. Indemnification</h2>
+              <p>
+                11.1 You agree to indemnify MEVEN for losses or damages due to a
+                violation of these terms or wrongful use of the site.
+              </p>
+
+              <h2 className="font-bold mt-4">12. Changes to These Terms</h2>
+              <p>
+                12.1 MEVEN reserves the right to modify terms and will notify
+                you 30 days prior to material changes.
+              </p>
+
+              <h2 className="font-bold mt-4">13. Governing Law</h2>
+              <p>
+                13.1 These terms are governed by the laws of Bangladesh, and any
+                disputes will be handled by courts in that jurisdiction.
+              </p>
+
+              <h2 className="font-bold mt-4">14. Return Policy</h2>
+              <p>
+                14.1 If a product does not meet your expectations, you may
+                return it with applicable delivery charges. Please check the
+                product carefully before confirming receipt.
+              </p>
+
+              <h2 className="font-bold mt-4">15. Contact Us</h2>
+              <p>
+                15.1 For any questions, contact us at meven.query@gmail.com or
+                09638189006.
+              </p>
+            </div>
+          </Containar>
+        </div>
       </div>
     </>
   );
