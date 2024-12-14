@@ -7,8 +7,6 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
 const ThankYou = () => {
-
-
   useEffect(() => {
     window.scrollTo(0, 0);
 
@@ -24,13 +22,11 @@ const ThankYou = () => {
       // Clear the timeout if the component unmounts before reload
       return () => clearTimeout(timer);
     }
-  }, []);  
-
+  }, []);
 
   // useEffect(() => {
   //   window.scrollTo(0, 0);
   // }, []);
-
 
   return (
     <div className="font-inter">
@@ -67,10 +63,10 @@ const ThankYou = () => {
               </h4>
               <h4 className="text-lg mt-5 text-center flex justify-center text-green-600">
                 <Link
-                  to={"tel:01924853285"}
+                  to={"tel:01780508545"}
                   className="flex items-center gap-x-2"
                 >
-                  <FaPhoneAlt /> 01924853285
+                  <FaPhoneAlt /> 017 8050 8545
                 </Link>
               </h4>
               <h4 className="text-base mt-5 text-center flex justify-center text-texthead">
@@ -78,7 +74,10 @@ const ThankYou = () => {
                   to={"mailto:support@bismillah-esupershops.com"}
                   className="flex items-center gap-x-2"
                 >
-                  <MdOutlineMail /> support@bismillah-esupershops.com
+                  <MdOutlineMail />{" "}
+                  <a href="mailto:meven.query@gmail.com">
+                    meven.query@gmail.com
+                  </a>
                 </Link>
               </h4>
               <p className="text-center mt-5">You can check more products</p>

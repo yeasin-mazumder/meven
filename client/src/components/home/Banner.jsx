@@ -57,7 +57,7 @@ const Banner = () => {
       // style={{ backgroundImage: `url(${bgbanner})` }}
     >
       <div className="">
-        <section className="relative banner-part max-w-screen-xl mx-auto">
+        <section className="relative banner-part">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             slidesPerView={1}

@@ -355,7 +355,8 @@ const ProductDetail = () => {
                                   </PhotoView>
                                 )}
                               </SwiperSlide>
-                            ))}
+                            ))}
+
                           </Swiper>
 
                           <Swiper
